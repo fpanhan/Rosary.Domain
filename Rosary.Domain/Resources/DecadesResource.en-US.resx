@@ -1,0 +1,258 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="BeginningDivineMercyDecadeDescription" xml:space="preserve">
+    <value>a</value>
+  </data>
+  <data name="BeginningDivineMercyDecadeName" xml:space="preserve">
+    <value>Beginning Divine Mercy</value>
+  </data>
+  <data name="EndingDivineMercyDecadeDescription" xml:space="preserve">
+    <value>a</value>
+  </data>
+  <data name="EndingDivineMercyDecadeName" xml:space="preserve">
+    <value>a</value>
+  </data>
+  <data name="FifthMysteryOfGloriousDecadeDescription" xml:space="preserve">
+    <value>a</value>
+  </data>
+  <data name="FifthMysteryOfGloriousDecadeName" xml:space="preserve">
+    <value>Fifth Mystery Of Glorious</value>
+  </data>
+  <data name="FifthMysteryOfJoyfulDecadeDescription" xml:space="preserve">
+    <value>Now His parents went to Jerusalem every year at the feast of the passover. And when he was twelve years old, they went up to Jerusalem after the custom of the feast. And when they had fulfilled the days, as they returned, the child Jesus tarried behind in Jerusalem; and Joseph and His mother knew not of it. But they, supposing Him to have been in the company, went a day's journey; and they sought Him among their kinsfolk and acquaintance. And when they found Him not, they turned back again to Jerusalem, seeking Him And it came to pass, that after three days they found Him in the temple, sitting in the midst of the doctors, both hearing them, and asking them questions. And all that heard Him were astonished at His understanding and answers. And when they saw Him, they were amazed: and His mother said unto Him: 'Son, why hast thou thus dealt with us? behold, thy father and I have sought thee sorrowing'. And he said unto them: 'How is it that ye sought me? wist ye not that I must be about my Father's business?' And they understood not the saying which he spake unto them. And he went down with them, and came to Nazareth, and was subject unto them: but His mother kept all these sayings in her heart. (Luk 2,41-51)</value>
+  </data>
+  <data name="FifthMysteryOfJoyfulDecadeName" xml:space="preserve">
+    <value>Fifth Mystery Of Joyful</value>
+  </data>
+  <data name="FifthMysteryOfLuminousDecadeDescription" xml:space="preserve">
+    <value>a</value>
+  </data>
+  <data name="FifthMysteryOfLuminousDecadeName" xml:space="preserve">
+    <value>Fifth Mystery Of Luminous</value>
+  </data>
+  <data name="FifthMysteryOfSorrowfulDecadeDescription" xml:space="preserve">
+    <value>a</value>
+  </data>
+  <data name="FifthMysteryOfSorrowfulDecadeName" xml:space="preserve">
+    <value>Fifth Mystery Of Sorrowful</value>
+  </data>
+  <data name="FirstMysteryOfGloriousDecadeDescription" xml:space="preserve">
+    <value>a</value>
+  </data>
+  <data name="FirstMysteryOfGloriousDecadeName" xml:space="preserve">
+    <value>First Mystery Of Glorious</value>
+  </data>
+  <data name="FirstMysteryOfJoyfulDecadeDescription" xml:space="preserve">
+    <value>In the sixth month the angel Gabriel was sent from God unto a city of Galilee, named Nazareth, to a virgin espoused to a man whose name was Joseph, of the house of David; and the virgin's name was Mary. And the angel came in unto her, and said: 'Hail, thou that art highly favoured, the Lord is with thee: blessed art thou among women'. And when she saw Him, she was troubled at His saying, and cast in her mind what manner of salutation this should be.And the angel said unto her:' Fear not, Mary: for thou hast found favour with God. And, behold, thou shalt conceive in thy womb, and bring forth a son, and shalt call His name Jesus. He shall be great, and shall be called the Son of the Highest'... And Mary said:' Behold the handmaid of the Lord; be it unto me according to thy word'. And the angel departed from her. (Luk 1,26-38)</value>
+  </data>
+  <data name="FirstMysteryOfJoyfulDecadeName" xml:space="preserve">
+    <value>First Mystery Of Joyful</value>
+  </data>
+  <data name="FirstMysteryOfLuminousDecadeDescription" xml:space="preserve">
+    <value>a</value>
+  </data>
+  <data name="FirstMysteryOfLuminousDecadeName" xml:space="preserve">
+    <value>First Mystery Of Luminous</value>
+  </data>
+  <data name="FirstMysteryOfSorrowfulDecadeDescription" xml:space="preserve">
+    <value>a</value>
+  </data>
+  <data name="FirstMysteryOfSorrowfulDecadeName" xml:space="preserve">
+    <value>First Mystery Of Sorrowful</value>
+  </data>
+  <data name="FourthMysteryOfGloriousDecadeDescription" xml:space="preserve">
+    <value>a</value>
+  </data>
+  <data name="FourthMysteryOfGloriousDecadeName" xml:space="preserve">
+    <value>Fourth Mystery Of Glorious</value>
+  </data>
+  <data name="FourthMysteryOfJoyfulDecadeDescription" xml:space="preserve">
+    <value>And when the days of her purification according to the law of Moses were accomplished, they brought Him to Jerusalem, to present Him to the Lord; And to offer a sacrifice according to that which is said in the law of the Lord, A pair of turtledoves, or two young pigeons. And, behold, there was a man in Jerusalem, whose name was Simeon; and the same man was just and devout, waiting for the consolation of Israel: and the Holy Ghost was upon Him. ...When the parents brought in the child Jesus, to do for Him after the custom of the law, Then took he Him up in His arms, and blessed God, and said: 'Lord, now lettest thou thy servant depart in peace, according to thy word: For mine eyes have seen thy salvation... A light to lighten the Gentiles, and the glory of thy people Israel.' And Joseph and His mother marvelled at those things which were spoken of Him. And Simeon blessed them, and said unto Mary His mother: 'Behold, this child is set for the fall and rising again of many in Israel; and for a sign which shall be spoken against; (Yea, a sword shall pierce through thy own soul also,) that the thoughts of many hearts may be revealed.'(Luk 2,22-35)</value>
+  </data>
+  <data name="FourthMysteryOfJoyfulDecadeName" xml:space="preserve">
+    <value>Fourth Mystery Of Joyful</value>
+  </data>
+  <data name="FourthMysteryOfLuminousDecadeDescription" xml:space="preserve">
+    <value>a</value>
+  </data>
+  <data name="FourthMysteryOfLuminousDecadeName" xml:space="preserve">
+    <value>Fourth Mystery Of Luminous</value>
+  </data>
+  <data name="FourthMysteryOfSorrowfulDecadeDescription" xml:space="preserve">
+    <value>a</value>
+  </data>
+  <data name="FourthMysteryOfSorrowfulDecadeName" xml:space="preserve">
+    <value>Fourth Mystery Of Sorrowful</value>
+  </data>
+  <data name="MysterysDivineMercyDecadeDescription" xml:space="preserve">
+    <value>a</value>
+  </data>
+  <data name="MysterysDivineMercyDecadeName" xml:space="preserve">
+    <value>a</value>
+  </data>
+  <data name="SecondMysteryOfGloriousDecadeDescription" xml:space="preserve">
+    <value>a</value>
+  </data>
+  <data name="SecondMysteryOfGloriousDecadeName" xml:space="preserve">
+    <value>Second Mystery Of Glorious</value>
+  </data>
+  <data name="SecondMysteryOfJoyfulDecadeDescription" xml:space="preserve">
+    <value>Mary arose in those days, and went into the hill country with haste, into a city of Juda. And entered into the house of Zacharias, and saluted Elisabeth. And it came to pass, that, when Elisabeth heard the salutation of Mary, the babe leaped in her womb; and Elisabeth was filled with the Holy Ghost and she spoke out with a loud voice, and said: 'Blessed art thou among women, and blessed is the fruit of thy womb'. ... And Mary said: 'My soul doth magnify the Lord, and my spirit hath rejoiced in God my Saviour. For he hath regarded the low estate of His handmaiden: for, behold, from henceforth all generations shall call me blessed. For he that is mighty hath done to me great things; and holy is His name'...(Luk 1,39-49)</value>
+  </data>
+  <data name="SecondMysteryOfJoyfulDecadeName" xml:space="preserve">
+    <value>Second Mystery Of Joyful</value>
+  </data>
+  <data name="SecondMysteryOfLuminousDecadeDescription" xml:space="preserve">
+    <value>a</value>
+  </data>
+  <data name="SecondMysteryOfLuminousDecadeName" xml:space="preserve">
+    <value>Second Mystery Of Luminous</value>
+  </data>
+  <data name="SecondMysteryOfSorrowfulDecadeDescription" xml:space="preserve">
+    <value>a</value>
+  </data>
+  <data name="SecondMysteryOfSorrowfulDecadeName" xml:space="preserve">
+    <value>Second Mystery Of Sorrowful</value>
+  </data>
+  <data name="ThirdMysteryOfGloriousDecadeDescription" xml:space="preserve">
+    <value>a</value>
+  </data>
+  <data name="ThirdMysteryOfGloriousDecadeName" xml:space="preserve">
+    <value>Third Mystery Of Glorious</value>
+  </data>
+  <data name="ThirdMysteryOfJoyfulDecadeDescription" xml:space="preserve">
+    <value>And so it was, that, while they were there, the days were accomplished that she should be delivered. And she brought forth her firstborn son, and wrapped Him in swaddling clothes, and laid Him in a manger; because there was no room for them in the inn. And there were in the same country shepherds abiding in the field, keeping watch over their flock by night. And, lo, the angel of the Lord came upon them, and the glory of the Lord shone round about them: and they were sore afraid. And the angel said unto them: 'Fear not: for, behold, I bring you good tidings of great joy, which shall be to all people. For unto you is born this day in the city of David a Saviour, which is Christ the Lord. And this shall be a sign unto you; Ye shall find the babe wrapped in swaddling clothes, lying in a manger'. (Luk 2,6-12)</value>
+  </data>
+  <data name="ThirdMysteryOfJoyfulDecadeName" xml:space="preserve">
+    <value>Third Mystery Of Joyful</value>
+  </data>
+  <data name="ThirdMysteryOfLuminousDecadeDescription" xml:space="preserve">
+    <value>a</value>
+  </data>
+  <data name="ThirdMysteryOfLuminousDecadeName" xml:space="preserve">
+    <value>Third Mystery Of Luminous</value>
+  </data>
+  <data name="ThirdMysteryOfSorrowfulDecadeDescription" xml:space="preserve">
+    <value>a</value>
+  </data>
+  <data name="ThirdMysteryOfSorrowfulDecadeName" xml:space="preserve">
+    <value>Third Mystery Of Sorrowful</value>
+  </data>
+</root>
