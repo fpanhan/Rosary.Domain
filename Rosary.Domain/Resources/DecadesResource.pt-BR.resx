@@ -121,13 +121,13 @@
     <value>a</value>
   </data>
   <data name="BeginningDivineMercyDecadeName" xml:space="preserve">
-    <value>Beginning Divine Mercy</value>
+    <value>Início - Divina Misericórdia</value>
   </data>
   <data name="EndingDivineMercyDecadeDescription" xml:space="preserve">
     <value>a</value>
   </data>
   <data name="EndingDivineMercyDecadeName" xml:space="preserve">
-    <value>a</value>
+    <value>Fim - Divina Misericórdia</value>
   </data>
   <data name="FifthMysteryOfGloriousDecadeDescription" xml:space="preserve">
     <value>a</value>
@@ -205,7 +205,7 @@
     <value>a</value>
   </data>
   <data name="MysterysDivineMercyDecadeName" xml:space="preserve">
-    <value>a</value>
+    <value>Divina Misericórdia</value>
   </data>
   <data name="SecondMysteryOfGloriousDecadeDescription" xml:space="preserve">
     <value>a</value>

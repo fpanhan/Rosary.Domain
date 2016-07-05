@@ -280,7 +280,6 @@
             SetPrayId(GetType().Name);
             var resourceManager = new ResourceManager("Rosary.Domain.Resources.PrayResource", typeof(Pray).Assembly);
 
-
             SetPrayName(resourceManager.GetString(Id + "PrayName", cultureInfo));
             SetPrayDescription(resourceManager.GetString(Id + "PrayDescription", cultureInfo));
         }

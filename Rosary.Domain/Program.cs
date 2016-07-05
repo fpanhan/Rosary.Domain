@@ -12,7 +12,7 @@ namespace Rosary.Domain
         public static void Main(string[] args)
         {
             var rosaryOfHailMary = new RosaryOfHailMary(Enum.RosaryPrayType.RosaryOfOurLadyComplete, CultureInfo.CreateSpecificCulture("pt-br")).SetLanguage(CultureInfo.CreateSpecificCulture("pt-br"));
-            var rosaryCompleteSerialized = JsonConvert.SerializeObject(rosaryOfHailMary);
+            //var rosaryCompleteSerialized = JsonConvert.SerializeObject(rosaryOfHailMary);
             //var rosaryDeserialized = JsonConvert.DeserializeObject<RosaryOfHailMary>(rosaryCompleteSerialized);
             foreach (var decade in rosaryOfHailMary.Decades)
             {

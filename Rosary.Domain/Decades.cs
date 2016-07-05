@@ -5,6 +5,7 @@
     using System.Globalization;
     using System.Resources;
 
+
     public class BeginningDivineMercy : Decade
     {
         public BeginningDivineMercy(CultureInfo cultureInfo) : base(cultureInfo)

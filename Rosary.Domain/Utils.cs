@@ -50,12 +50,4 @@
 
         public static Type[] GetTypesInNamespace(Assembly assembly, string nameSpace) => assembly.GetTypes().Where(t => string.Equals(t.Namespace, nameSpace, StringComparison.Ordinal)).ToArray();
     }
-
-    public class BaseBusiness<T> : IDisposable where T : class, new()
-    {
-        public void Dispose()
-        {
-            throw new NotImplementedException();
-        }
-    }
 }

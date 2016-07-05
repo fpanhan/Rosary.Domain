@@ -4,6 +4,7 @@
     using System.Collections.Generic;
     using System.Globalization;
 
+
     public abstract class Pray
     {
         protected Pray(CultureInfo cultureInfo) { Language = cultureInfo; }

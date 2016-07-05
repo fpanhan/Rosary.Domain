@@ -6,6 +6,7 @@
     using System.ComponentModel;
     using System.Globalization;
 
+
     [Description("Rosary Of Hail Mary Complete"), Category("Chaplet")]
     public class RosaryOfHailMary : Chaplet
     {

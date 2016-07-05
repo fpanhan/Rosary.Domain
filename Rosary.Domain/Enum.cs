@@ -2,6 +2,7 @@
 {
     using System.ComponentModel;
 
+
     public enum RosaryPrayType
     {
         [Description("Rosário de Nossa Senhora")]
