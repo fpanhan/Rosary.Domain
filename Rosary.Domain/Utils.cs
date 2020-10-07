@@ -8,6 +8,7 @@
     using System.IO;
     using System.Linq;
     using System.Reflection;
+
     public static class Extensions
     {
         public static string GetDescription(this Enum value)

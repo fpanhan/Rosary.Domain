@@ -1,8 +1,8 @@
-﻿using Rosary.Domain.Chaplets;
-using Newtonsoft.Json;
+﻿using Newtonsoft.Json;
+using Rosary.Domain.Chaplets;
+using Rosary.Domain.Utils;
 using System;
 using System.Globalization;
-using Rosary.Domain.Utils;
 using System.Reflection;
 
 namespace Rosary.Domain
@@ -12,7 +12,7 @@ namespace Rosary.Domain
         public static void Main(string[] args)
         {
             var rosaryOfHailMary = new RosaryOfHailMary(Enum.RosaryPrayType.RosaryOfOurLadyComplete, CultureInfo.CreateSpecificCulture("pt-br")).SetLanguage(CultureInfo.CreateSpecificCulture("pt-br"));
-            //var rosaryCompleteSerialized = JsonConvert.SerializeObject(rosaryOfHailMary);
+            var rosaryCompleteSerialized = JsonConvert.SerializeObject(rosaryOfHailMary);
             //var rosaryDeserialized = JsonConvert.DeserializeObject<RosaryOfHailMary>(rosaryCompleteSerialized);
             foreach (var decade in rosaryOfHailMary.Decades)
             {
